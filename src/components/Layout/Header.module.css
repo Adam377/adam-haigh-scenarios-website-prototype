@@ -13,3 +13,23 @@
     width: 100%;
     z-index: 10;
 }
+
+.header li {
+    margin: 0 1rem;
+    width: 5rem;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+    border-bottom: 4px solid #95bcf0;
+    color: blue;
+    padding-bottom: 0.25rem;
+}
