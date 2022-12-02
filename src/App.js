@@ -1,10 +1,11 @@
 import { Route, Switch } from 'react-router-dom';
 
-import ContentImageBlock from './components/Layout/Blocks/ContentImageBlock';
+// import ContentImageBlock from './components/Layout/Blocks/ContentImageBlock';
 import Header from './components/Layout/Header';
 import Masthead from './components/Layout/Masthead';
-import aboutMeImage from './assets/class319WBQ.JPG';
+// import aboutMeImage from './assets/class319WBQ.JPG';
 import Scenarios from './components/Screens/Scenarios';
+import AboutMe from './components/Screens/AboutMe';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
         <Switch>
           <Route path="/scenarios">
             <Scenarios />
+          </Route>
+          <Route path="/about-me">
+            <AboutMe />
           </Route>
         </Switch>
       </main>
