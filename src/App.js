@@ -1,11 +1,10 @@
 import { Route, Switch } from 'react-router-dom';
 
-// import ContentImageBlock from './components/Layout/Blocks/ContentImageBlock';
 import Header from './components/Layout/Header';
 import Masthead from './components/Layout/Masthead';
-// import aboutMeImage from './assets/class319WBQ.JPG';
 import Scenarios from './components/Screens/Scenarios';
 import AboutMe from './components/Screens/AboutMe';
+import ContentOnlyBlock from './components/Layout/Blocks/ContentOnlyBlock';
 
 function App() {
   return (
@@ -21,6 +20,7 @@ function App() {
             <AboutMe />
           </Route>
         </Switch>
+        <ContentOnlyBlock title="Welcome!">Welcome to my site. Feel free to have a look around for scenarios!</ContentOnlyBlock>
       </main>
     </div>
   );

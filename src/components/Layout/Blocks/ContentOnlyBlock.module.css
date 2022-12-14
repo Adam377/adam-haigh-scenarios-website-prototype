@@ -1,0 +1,11 @@
+.content-only-block {
+    text-align: center;
+}
+
+.content-only-block h3 {
+    font-size: 50px;
+}
+
+.content-only-block p {
+    font-size: 20px;
+}

@@ -1,6 +1,8 @@
+import classes from './AboutMe.module.css';
+
 const AboutMe = () => {
     return(
-        <div>About Me</div>
+        <div className={classes.content}>About Me</div>
     );
 };
 
