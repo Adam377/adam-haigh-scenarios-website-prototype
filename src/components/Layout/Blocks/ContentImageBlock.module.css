@@ -1,3 +1,35 @@
 .content-image-block {
-    
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+.content {
+    font-weight: 100;
+    margin-left: auto;
+    padding: 0 50px 0 0;
+    text-align: justify;
+    width: calc(50% - 15px);
+}
+
+.image {
+    margin: 0;
+    /* padding: 250px 0; */
+    width: calc(50% - 15px);
 }
