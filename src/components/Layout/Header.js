@@ -17,7 +17,7 @@ const Header = () => {
                             <NavLink activeClassName={classes.active} to="/scenarios">Scenarios</NavLink>
                         </li>
                         <li>
-                            <NavLink activeClassName={classes.active} to="/about-me">About Me</NavLink>
+                            <NavLink activeClassName={classes.active} to="/wip-content">WIP</NavLink>
                         </li>
                     </ul>
                 </nav>

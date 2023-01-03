@@ -8,12 +8,8 @@ const ContentImageBlock = (props) => {
                 <div className={classes.container}>
                     <img className={classes.image} src={props.image} />
                     <div className={classes.content}>
-                        <div className={classes.title}>
-                            {props.title}
-                        </div>
-                        <div className={classes['inner-content']}>
-                            {props.children}
-                        </div>
+                        <div className={classes.title}>{props.title}</div>
+                        <div className={classes['inner-content']}>{props.children}</div>
                     </div>
                 </div>
             </div>

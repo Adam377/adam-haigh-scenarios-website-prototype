@@ -26,10 +26,14 @@
     padding: 0;
 }
 
+.header a {
+    color: black;
+}
+
 .header a:hover,
 .header a:active,
 .header a.active {
-    border-bottom: 4px solid #95bcf0;
-    color: blue;
+    /* border-bottom: 4px solid #95bcf0; */
+    color: white;
     padding-bottom: 0.25rem;
 }
