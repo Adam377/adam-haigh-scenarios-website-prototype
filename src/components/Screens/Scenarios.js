@@ -1,8 +1,8 @@
 import { Fragment } from 'react';
-import CardBlock from '../Layout/Blocks/CardBlock';
 
 import classes from './Scenarios.module.css';
 
+import CardBlock from '../Layout/Blocks/CardBlock';
 import MastheadSubpage from '../Layout/MastheadSubpage';
 
 import rivieraLineScreenshot from '../../assets/riviera-line-screenshot.jpg';
@@ -43,7 +43,7 @@ const Scenarios = () => {
     return(
         <Fragment>
             <MastheadSubpage title="Scenarios"/>
-            <CardBlock title="Card Block Title" routes={routes}/>
+            <CardBlock title="Pick a Route" routes={routes}/>
         </Fragment>
     );
 };
