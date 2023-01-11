@@ -7,7 +7,7 @@ const Header = () => {
     return(
         <Fragment>
             <header className={classes.header}>
-                <h1>Adam Haigh Scenarios</h1>
+                <h1>Logo</h1>
                 <nav>
                     <ul>
                         <li>
@@ -18,6 +18,9 @@ const Header = () => {
                         </li>
                         <li>
                             <NavLink activeClassName={classes.active} to="/wip-content">WIP</NavLink>
+                        </li>
+                        <li>
+                            <NavLink activeClassName={classes.active} to="/cart">Cart</NavLink>
                         </li>
                     </ul>
                 </nav>

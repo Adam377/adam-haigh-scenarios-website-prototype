@@ -9,12 +9,8 @@ const ImageBlock = (props) => {
                 <img className={classes.image} src={props.image}/>
                 <div className={classes['image-overlay']}/>
                 <div className={classes['content-container']}>
-                    <div className={classes.title}>
-                        {props.title}
-                    </div>
-                    <div className={classes['inner-content']}>
-                        {props.children}
-                    </div>
+                    <div className={classes.title}>{props.title}</div>
+                    <div className={classes['inner-content']}>{props.children}</div>
                 </div>
             </div>
         </Fragment>

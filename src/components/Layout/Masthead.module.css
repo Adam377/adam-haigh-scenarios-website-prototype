@@ -1,12 +1,43 @@
-.masthead {
-    height: 35rem;
-    overflow: hidden;
-    width: 100%;
-    z-index: 0;
+.content-container {
+    color: white;
+    position: relative;
+    z-index: 2;
 }
 
-.masthead img {
-    height: 100%;
+.image {
+    background-repeat: no-repeat;
     object-fit: cover;
+    height: 100%;
+    position: absolute;
     width: 100%;
+    z-index: -1;
+}
+
+.inner-content {
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.masthead {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    min-height: 500px;
+    position: relative;
+    text-align: center;
+}
+
+.masthead-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
