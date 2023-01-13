@@ -28,6 +28,12 @@
     text-align: center;
 }
 
+.masthead-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
 .masthead-overlay {
     background-color: rgba(0, 0, 0, 0.3);
     height: 100%;
